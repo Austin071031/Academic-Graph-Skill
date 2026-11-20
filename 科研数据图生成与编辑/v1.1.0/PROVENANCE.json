@@ -1,0 +1,67 @@
+{
+  "challenge_id": "challenge-1bd90d8a",
+  "attempt_id": 73258,
+  "skill_version": "1.1.0",
+  "archive_date": "2026-11-20",
+  "source_bundle": "bohrium-scientific-charts-v1.1.0.zip",
+  "source_bundle_sha256": "bd5fcc741318ed3d9bba0675ae02c1f09ccaa9773a22617bfbb06676ee5b9d31",
+  "source_bundle_bytes": 157371,
+  "extraction": "Seven original Skill resources extracted byte-for-byte from outputs/. SCORE.md and PROVENANCE.json are archive metadata only.",
+  "score_evidence": {
+    "source": "Saved official Playground status: outputs/score-check-73258-latest.json",
+    "score": 72.3333,
+    "score_percent": 72.333333,
+    "score_is_final": true,
+    "status": "scored",
+    "exec_status": "completed",
+    "harbor_errors": 0,
+    "trace_factor": 1,
+    "summary": "Received and graded in full. Solid — refine for a more complete and rigorous solution.",
+    "created_at": "2026-11-13T01:52:25+00:00",
+    "updated_at": "2026-11-13T04:23:12+00:00"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "source_path": "outputs/SKILL.md",
+      "bytes": 10847,
+      "sha256": "185d621353885a0d97492ac567f593a21767e7f2404e6597a3762e51bea1747d"
+    },
+    {
+      "path": "references/interfaces.md",
+      "source_path": "outputs/references/interfaces.md",
+      "bytes": 8967,
+      "sha256": "9d8725c451d3893a15c8e283cf174fac2bbb68703d36a499d8ac6614b03b1c31"
+    },
+    {
+      "path": "references/workflows.md",
+      "source_path": "outputs/references/workflows.md",
+      "bytes": 9442,
+      "sha256": "b66a30545d4853f6682c87e6c3d99d71e2e58f9d676321db3ace5413011d9e25"
+    },
+    {
+      "path": "scripts/charts.py",
+      "source_path": "outputs/scripts/charts.py",
+      "bytes": 25365,
+      "sha256": "5696a8aa40aa2107b05d7b203210dd257356c341aa5f42f283806423de69fe10"
+    },
+    {
+      "path": "scripts/diagram.py",
+      "source_path": "outputs/scripts/diagram.py",
+      "bytes": 17025,
+      "sha256": "ddf717ca4d18951a16c1f4e95208f36ee41b1c78fc32ff31cdc108c76d5f6fbb"
+    },
+    {
+      "path": "scripts/validate_delivery.py",
+      "source_path": "outputs/scripts/validate_delivery.py",
+      "bytes": 7099,
+      "sha256": "741dda48e4cf643030e9a599d839e141957b2a0aa40cbcbcaa24fbf8b3e8bc7d"
+    },
+    {
+      "path": "scripts/verify_sources.py",
+      "source_path": "outputs/scripts/verify_sources.py",
+      "bytes": 3500,
+      "sha256": "785d991907bf8b924ea325fc957aa147220ea50c65ebb35cba1342a8cabca5b7"
+    }
+  ]
+}
