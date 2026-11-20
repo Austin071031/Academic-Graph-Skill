@@ -6,6 +6,14 @@
 
 ```
 Academic-Graph-Skill/
+├── 图形摘要/                    # 同一题目下保留多个版本
+│   ├── README.md
+│   └── v1.3.0/                  # Attempt 74019，83 / 100
+│       ├── SKILL.md
+│       ├── scripts/
+│       ├── references/
+│       ├── SCORE.md
+│       └── PROVENANCE.json
 └── 实验装置与技术路线图/          # 一个题目 = 一个顶层目录
     ├── README.md                  # 题目索引：版本表与命名约定
     └── v1.0/                      # 一个版本 = 一个子目录
@@ -22,6 +30,7 @@ Academic-Graph-Skill/
 
 | 题目 | 赛道 ID | 版本数 | 最高分 |
 |---|---|---|---|
+| [图形摘要](图形摘要/) | `graphical-abstract-7030fff2` | 1 | **83** |
 | [实验装置与技术路线图](实验装置与技术路线图/) | `challenge-9034312d` | 1 | 72.33 |
 
 ## 约定
