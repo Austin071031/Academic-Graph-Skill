@@ -8,3 +8,4 @@
 - validate.py：XML/出处/图例覆盖/合同字段/预览五类核验。
 - failure_playbook：10 类异常处置；预算纪律与最小路径。
 \n## 变体说明\n- 本变体在 1.0.0 基座上强化特定评分维度（见 SKILL.md「本变体优化重点」）。
+  - 提交：playground attempt 85718（challenge-83d4f050，生物机制图与通路图）

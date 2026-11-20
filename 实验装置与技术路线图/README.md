@@ -17,3 +17,16 @@
 ## 当前状态
 
 账号 A0516 在该赛道的成功出分额度（10 次）已用满，历史最高分 72.33（本仓库 v1.0）。下一轮迭代方向见 `v1.0/SCORE.md` 末节。
+
+## 未出分提交（平台执行异常，待人工确认）
+
+以下 4 个 attempt 未对应任何版本目录，也未计入得分。平台返回字段一致：`execStatus=failed`、`resultsJson.harbor_status=evaluation_error`，`score` 为占位 0、`scoreIsFinal=false`，记录状态仍为 `pending_review`，即未产生可用评分。是否重提由人工决定，本仓库不代为重提（重提会消耗提交额度）。
+
+| Attempt | 提交时间 | 平台状态字段 |
+|-|-|-|
+| 74053 | 2026-11-13T08:00:47+00:00 | status=pending_review，execStatus=failed，harbor_status=evaluation_error，score=0（占位），scoreIsFinal=false |
+| 80504 | 2026-11-16T01:25:17+00:00 | status=pending_review，execStatus=failed，harbor_status=evaluation_error，score=0（占位），scoreIsFinal=false |
+| 83952 | 2026-11-17T02:27:36+00:00 | status=pending_review，execStatus=failed，harbor_status=evaluation_error，score=0（占位），scoreIsFinal=false |
+| 85698 | 2026-11-17T17:32:44+00:00 | status=pending_review，execStatus=failed，harbor_status=evaluation_error，score=0（占位），scoreIsFinal=false |
+
+旁证（仅记录事实，不作结论）：85698 与同批另外 7 次提交在同一分钟内创建，其中 7 次均正常出分（63.3333–72.3333），仅该次异常；80504、83952 所在时段该账号在其它挑战赛也有正常出分记录。

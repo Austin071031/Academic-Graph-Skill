@@ -29,3 +29,13 @@
 ## 使用说明
 
 本归档保留竞赛运行约定：Skill 安装于 `/skills/weekly-skill`，从 `/input` 读取案例（`case.json`、`task.md` 与材料 PDF），向 `/app/output` 写结果，临时文件位于 `/app/work`。运行依赖与导出工具见版本内 `SKILL.md` 与 `README.md`。迁移到其他运行环境时需配置对应目录；不要将成绩档案当作原生本机即装即用的运行器。
+
+## 未出分提交（平台执行异常，待人工确认）
+
+以下 attempt 未对应任何版本目录，也未计入得分。平台返回字段：`execStatus=failed`、`resultsJson.harbor_status=evaluation_error`，`score` 为占位 0、`scoreIsFinal=false`，记录状态仍为 `pending_review`，即未产生可用评分。是否重提由人工决定。
+
+| Attempt | 提交时间 | 平台状态字段 |
+|-|-|-|
+| 83959 | 2026-11-17T02:31:02+00:00 | status=pending_review，execStatus=failed，harbor_status=evaluation_error，score=0（占位），scoreIsFinal=false |
+
+旁证（仅记录事实，不作结论）：同期提交 84415（2026-11-17T06:30:59，70.6667）与 85717/85718（同日 17:36，72.6667/73）均正常出分。

@@ -13,3 +13,4 @@
 - 导出：rsvg-convert → inkscape → cairosvg → chromium → matplotlib(meta 重渲染) 五级回退；export_report.json 记录后端与字体命中。
 - 自检：实体覆盖、悬空连接、方向、编号、图例一致、字体、溢出、画布、导出、六要素共 10 项。
 - 文档：SKILL.md、USAGE、IR_SCHEMA、LIMITATIONS、合成示例 example_ir.json。
+  - 提交：playground attempt 85706（challenge-9034312d，实验装置与技术路线图）
