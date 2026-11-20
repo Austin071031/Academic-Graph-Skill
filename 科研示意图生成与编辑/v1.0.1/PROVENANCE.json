@@ -1,0 +1,27 @@
+{
+  "challenge_id": "challenge-98e5a474",
+  "attempt_id": 73746,
+  "skill_version": "1.0.1",
+  "archive_date": "2026-11-20",
+  "source_bundle": "bohrium-scientific-diagrams-v1.0.1.zip",
+  "source_bundle_sha256": "c456083eb398111c224339160e73ae7a9c672cd691f9163d18c6fd3356a874d5",
+  "source_bundle_bytes": 60960,
+  "extraction": "Four original Skill resources extracted byte-for-byte from outputs/. SCORE.md and this provenance file are archive metadata only.",
+  "score_evidence": {
+    "snapshot_date": "2026-11-16",
+    "source": "Official Playground status for attempt 73746, saved locally as outputs/v1.0.1/latest-status.json",
+    "score": 72.6667,
+    "score_percent": 72.666667,
+    "score_is_final": true,
+    "status": "scored",
+    "exec_status": "completed",
+    "harbor_errors": 0,
+    "trace_factor": 1
+  },
+  "files": [
+    {"path": "SKILL.md", "source_path": "outputs/SKILL.md", "bytes": 11849, "sha256": "2f61ccb3ad55b980462e1dbc7539486c285e55ac28202bffd8565325231e7697"},
+    {"path": "references/interface.md", "source_path": "outputs/references/interface.md", "bytes": 4750, "sha256": "4c4471656ba4ab9843c1c3f5889236ca87baa75c034123cd503e57bfc914ceef"},
+    {"path": "references/method.md", "source_path": "outputs/references/method.md", "bytes": 5259, "sha256": "3cc163b8b9328cf922a95c9eb494708418a9a4581bd8a2cfcbcb79bcf921740e"},
+    {"path": "scripts/diagram.py", "source_path": "outputs/scripts/diagram.py", "bytes": 17026, "sha256": "236c22c2175f646d571478ab5085e3373e1a7f71f8bb6b47de909ec33297fd4c"}
+  ]
+}
