@@ -2,12 +2,12 @@
 
 | 项目 | 内容 |
 |-|-|
-| Attempt ID | 待提交 |
+| Attempt ID | 103716 |
 | 挑战赛 | `challenge-9034312d` — 实验装置与技术路线图 |
-| 提交时间 | 待提交 |
-| 状态 | 未提交 |
-| 得分 | 未出分 |
-| 查询命令 | 待提交后填写 |
+| 提交时间 | 2026-11-24T08:19:54+00:00（北京时间 2026-11-24 16:19） |
+| 状态 | 待出分（`state: queued`，`scoreIsFinal: false`） |
+| 得分 | 待出分 |
+| 查询命令 | `playground status --attempt-id 103716` |
 
 ## 方向
 
@@ -33,6 +33,8 @@ python3 scripts/stage_band_audit.py --ir examples/example_ir.json --svg diagram.
 ```
 
 `stage_band_audit.py` 要求每个 `steps[].actor` 的中心落在自己的阶段矩形内。父版本没有这个脚本，两次检查都用本目录的 `stage_band_audit.py`。
+
+包 sha256：`6545709e11abed01ae493d72cdd28fe26b2fbc0ffeffb2fb0bda77bce7960d79`
 
 | 版本 | 结果 | 退出码 |
 |-|-|-|
