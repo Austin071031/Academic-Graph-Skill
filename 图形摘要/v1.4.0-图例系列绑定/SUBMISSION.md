@@ -2,12 +2,14 @@
 
 | 项目 | 内容 |
 |-|-|
-| Attempt ID | 待回填 |
+| Attempt ID | 103749 |
 | 挑战赛 | `graphical-abstract-7030fff2` — Graphical Abstract（图形摘要） |
-| 提交时间 | 待回填 |
-| 状态 | 待提交 |
+| 提交时间 | 2026-11-24T08:43:21+00:00（北京时间 2026-11-24 16:43） |
+| 状态 | 待出分（`state: queued`，`scoreIsFinal: false`） |
 | 得分 | 待出分 |
-| 查询命令 | 待回填 |
+| 查询命令 | `playground status --attempt-id 103749` |
+
+包 sha256：`eb341b060a5196e228ba6636add351fcf3b30c3da368ecf65712ddd2146ddb25`
 
 ## 方向
 
