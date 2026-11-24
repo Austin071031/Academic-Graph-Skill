@@ -1,0 +1,4 @@
+<g id="glyph-tank">
+  <path d="M 22 22 L 78 22 L 78 76 A 28 14 0 0 1 22 76 Z" fill="inherit" stroke="inherit" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="22" y1="40" x2="78" y2="40" stroke="inherit" stroke-width="2" stroke-dasharray="4 3"/>
+</g>
