@@ -1,0 +1,59 @@
+{
+  "challenge_id": "challenge-83d4f050",
+  "challenge_title": "生物机制图与通路图（科研绘图：生成图稿，也保留可编辑来源）",
+  "attempt_id": 107899,
+  "skill_version": "2.0.4",
+  "internal_variant": "source-preserving-edit",
+  "generated_on": "2026-11-25",
+  "parent": {
+    "version": "1.0.0",
+    "attempt_id": 85718,
+    "official_score": 73.0,
+    "scoreIsFinal": true
+  },
+  "source": "Independent v1.0.0 descendant; --outputs directory dry-run validated before submission. Only install-resource files are hashed; SUBMISSION.md/SCORE.md are mutable official-result bookkeeping.",
+  "skill_files_sha256": {
+    "CHANGELOG.md": "859cf0db50d670aaff2a7432d4871ee39b4d35d102bdf79308c171d944cf3d02",
+    "GITHUB_URL.txt": "1a6ec471f305701b14a63b8d89ad1f697e1ca42c9226565ae957329b521abd89",
+    "README.md": "5f54f6963931c9a863694538bab7a3d93c7e1b413040288f5970c2892187c248",
+    "SKILL.md": "f7b2a059298b4b23790f8bce1097be5e5f1327cdf3c54f10315a530929a250b1",
+    "examples/minimal_example.md": "01406eeeb198cf7c779e7fbaf2c9b7677d282ca5c6dc06d257395df322152541",
+    "references/budget_protocol.md": "0ebe2820a0189fe8e6068c6e45a4958f7b221a7965613060f7543d872ab75aa2",
+    "references/extraction_schema.md": "c48c79ccd8fe215f7ba50f80e8f8b61a0aba9497b504a16a2262019caead11a0",
+    "references/failure_playbook.md": "e4d13001eddf1892d843f104e44636cbf5e846ef46a9c21d4622b4d756c7f7a1",
+    "references/glyph_semantics.md": "a91ed2975312172f9ddc6c21c53fd61e1470375b0aab8900b8d778885afbfc18",
+    "references/layout_templates.md": "0dd46ed39b7083a9c9c13c6eacf2c0c727d82512316054ceffe15ef833fde81b",
+    "references/output_contract.md": "24f2fa16984f5bc2bd5d4745a9f057d002c9d694d4f30169df8252ea8c0868dd",
+    "scripts/build_chart.py": "b2f8751daff59392443debd4a7e7f5208a8eb3b2158f0eae9447ec33a668ead5",
+    "scripts/build_drawio.py": "8435fd28606c60a5da283682c5781e914728b0a0da035d51b05349f51ee555d9",
+    "scripts/build_svg.py": "aa4017ea8ce4f0ab8036b5d1eed52c801a7e46976ef38d059ada751ff512be56",
+    "scripts/edit_check.py": "51760b83be7eb29953cbe95e8d431300f65dd77aa1fe39bac83e7d246bc0a3f8",
+    "scripts/extract_pdf.py": "dda19c9966f20f79ccd288b258f6f11ad27f50bcf8f9261c9f4d25107d03f084",
+    "scripts/inspect_case.py": "c3de8ff32f0f897b68576be2a0fdab94a32070c3b19d5d6bd6866f2c342b46b0",
+    "scripts/legend_audit.py": "d086314b57abcfce4d8a7925af7205e91e903a92b56dd5c3ec4d62d987558a0e",
+    "scripts/lint_graph.py": "1d5ee1424d01a6c71415df15dd0135386ef1856c434895aa8fd2b4f85a76dce1",
+    "scripts/make_result.py": "57264fbf0c1f21abb7a5b3522190648f49e81ee727dbaf2a324966921464ee73",
+    "scripts/provenance_ledger.py": "44ab593dea32c727fa34c5197bfd955e6c5424d2f2c4daec0342dbb868d3d46b",
+    "scripts/render_preview.py": "5a8ca64c6fe5c671ebb9ab747d78763f2b68a3c846674a83c4a56e955b4fe203",
+    "scripts/source_edit.py": "a00f0dfaeb956f3177b4144b9a36051cb497dc8b25aa38a76ebdb6fc0bbc21c5",
+    "scripts/topology.py": "8b4d7d65c29a22d97df140f6797e1d3ad6d225b25efe5d18c85da37a4fea6762",
+    "scripts/validate.py": "7574beef9a997192022d9011d3a8d1e1cf9fb044934921dce0f7da67a7858874"
+  },
+  "local_regression": {
+    "kind": "synthetic interface tests, not official case answers",
+    "report": "bohrium/regression_report.md",
+    "status": "see version SUBMISSION.md for measured assertion count"
+  },
+  "official_score_record": {
+    "queried_on": "2026-11-25T08:04:30+00:00",
+    "status": "submitted",
+    "scoring_state": "queued",
+    "score": null,
+    "scoreIsFinal": false,
+    "submittedAt": "2026-11-25T08:01:09+00:00",
+    "resultsJson": null,
+    "scoringDetails": null
+  },
+  "archived_on": "2026-11-25",
+  "submission_bundle_sha256": "f3c620c77630dbc7a32261672897177528c0e04b2f9849717262713f80cc5c25"
+}
