@@ -1,0 +1,10 @@
+{
+  "_comment": "Font fallback chain for CJK scientific figures. pg_export.py verifies at least one installed CJK font via fc-list and records the matched font in export_report.json; pg_check.py fails the font item if none is found.",
+  "preferred": ["Noto Sans CJK SC", "Source Han Sans SC", "WenQuanYi Micro Hei", "SimHei", "Microsoft YaHei", "PingFang SC"],
+  "mono": ["Noto Sans Mono CJK SC", "WenQuanYi Micro Hei Mono"],
+  "svg_font_family": "Noto Sans CJK SC, Source Han Sans SC, WenQuanYi Micro Hei, SimHei, Microsoft YaHei, sans-serif",
+  "minimum_size_px": 7,
+  "title_size_px": 20,
+  "label_size_px": 12,
+  "small_size_px": 9
+}

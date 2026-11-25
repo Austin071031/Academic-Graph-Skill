@@ -1,0 +1,14 @@
+{
+  "skill_version": "1.0",
+  "pipeline": [
+    "extract_ir",
+    "render_svg",
+    "export_png_pdf",
+    "selfcheck",
+    "assemble_result"
+  ],
+  "save_partial_after_each_stage": true,
+  "strict_material_support": true,
+  "comment": "strict_material_support=true: connections must trace to the input material; inferred connections must be marked confidence=inferred and drawn with reduced opacity. Do not disable; it is the correctness backbone of the skill.",
+  "variant": "sci-apparatus-route-figure-v7-export"
+}
