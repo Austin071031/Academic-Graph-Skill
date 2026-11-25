@@ -5,11 +5,13 @@
 | Attempt ID | 103749 |
 | 挑战赛 | `graphical-abstract-7030fff2` — Graphical Abstract（图形摘要） |
 | 提交时间 | 2026-11-24T08:43:21+00:00（北京时间 2026-11-24 16:43） |
-| 状态 | 待出分（`state: queued`，`scoreIsFinal: false`） |
-| 得分 | 待出分 |
+| 状态 | scored（已评分，`state: final`，`scoreIsFinal: true`） |
+| 得分 | **69.6667 / 100** |
 | 查询命令 | `playground status --attempt-id 103749` |
 
 包 sha256：`eb341b060a5196e228ba6636add351fcf3b30c3da368ecf65712ddd2146ddb25`
+
+终分回填：北京时间 2026-11-25 08:17。`harbor_reward` 0.69666667，`zeroReason` 为空，`outcome` 为 partial。
 
 ## 方向
 
