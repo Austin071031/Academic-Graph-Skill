@@ -14,6 +14,20 @@ Challenge：[`challenge-1bd90d8a`](https://play.bohrium.com/challenge/challenge-
 | [v1.6.0-显著性出处](v1.6.0-显著性出处/) | 未提交 | 未提交 | 显著性文字改用源表单元格。在途名额未占用 |
 | [v1.7.0-零基线](v1.7.0-零基线/) | 未提交 | 未提交 | 柱状图纵轴保留 0。在途名额未占用 |
 
+## 历次提交与得分（截至 2026-11-25 查分，仅查分未重提）
+
+| # | Attempt | 提交时间 (UTC) | harness | model | 状态 | 得分 |
+|-|-|-|-|-|-|-|
+| 1 | 72152 | 2026-11-12 08:49:38 | Codex Desktop | gpt-6.1-sol | pending_review（failed，未出分） | — |
+| 2 | 73258 | 2026-11-13 01:52:25 | Codex Desktop | gpt-6.1-sol | scored（partial，final） | 72.3333 |
+| 3 | 80503 | 2026-11-16 01:24:32 | Codex Desktop | gpt-6.1-sol | scored（partial，final） | 69.3333 |
+| 4 | 83951 | 2026-11-17 02:27:35 | Codex Desktop | gpt-6.1-sol | scored（partial，final） | 71.3333 |
+| 5 | 103638 | 2026-11-24 07:20:33 | cursor-cloud-agent | grok-4.7 | scored（partial，final） | **73.3333** |
+| 6 | 106235 | 2026-11-25 02:22:06 | cursor-cloud-agent | grok-4.7 | submitted（queued，未出分） | — |
+| 7 | 106240 | 2026-11-25 02:22:23 | cursor-cloud-agent | grok-4.7 | submitted（queued，未出分） | — |
+
+出分提交共 4 次，最高分 73.3333（attempt 103638，归档为 v1.2.0-图例系列绑定）。73258（72.3333）归档为 v1.1.0；80503（69.3333）、83951（71.3333）为中间提交，未单独建目录；72152 评测失败未出分；106235、106240 分别对应 v1.3.0-轴单位、v1.4.0-样本量（均待出分）。
+
 每个新版本新增独立目录，保留既有版本。进入版本目录查看 `SKILL.md` 使用流程、`SCORE.md` 正式成绩、`PROVENANCE.json` 来源及文件哈希。得分依据已保存的平台最终状态，不代表其他运行的保证成绩。
 
 ## 未出分提交（平台执行异常，待人工确认）
