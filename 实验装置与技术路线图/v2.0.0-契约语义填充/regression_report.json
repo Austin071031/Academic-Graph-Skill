@@ -1,0 +1,25 @@
+{
+ "skill": "sci-apparatus-route-figure",
+ "version": "2.0.0",
+ "focus": "契约语义填充",
+ "parent": "v1.0 (attempt 85706, 72.3333)",
+ "regression": "synthetic example_ir.json + 11-field output_contract",
+ "parent_unavailable_fields": [
+  "png_preview",
+  "pdf_preview",
+  "entities",
+  "connections",
+  "steps",
+  "legend",
+  "values",
+  "sources",
+  "selfcheck"
+ ],
+ "new_unavailable_fields": [],
+ "contract_check": {
+  "substantive": 11,
+  "total": 11,
+  "all_substantive": true
+ },
+ "verdict": "父版9字段no automatic mapping；新版全部回填为来源可追溯的结构化清单"
+}

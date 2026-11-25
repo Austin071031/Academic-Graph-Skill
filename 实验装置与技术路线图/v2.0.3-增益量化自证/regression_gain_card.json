@@ -1,0 +1,29 @@
+{
+ "case_id": "REGRESS-SYNTHETIC",
+ "metrics": {
+  "selfcheck_rate": 1.0,
+  "selfcheck_detail": "11/11",
+  "traceability_rate": 1.0,
+  "traceability_detail": "11/11 要素带 locator",
+  "export_compliance": 1.0,
+  "export_detail": {
+   "png_nontrivial": true,
+   "pdf_exists": true,
+   "cjk_font_hit": true,
+   "svg_layered_editable": true,
+   "legend_matches_kinds": true
+  },
+  "contract_fill_rate": 1.0,
+  "contract_detail": "11/11 字段实质",
+  "repair_rounds": 0,
+  "manual_rework_avoided": 0
+ },
+ "baseline_failure_modes_without_skill": [
+  "无结构化 IR：实体—连接—步骤无法逐条回溯到材料（本卡 traceability_detail 为对照）",
+  "无可编辑分层 SVG：改一个标签需整图重画（本卡 export_detail.svg_layered_editable 为对照）",
+  "无机器自检：文本溢出/画布越界/悬空连接/编号错乱不可检出（selfcheck_detail 为对照）",
+  "无导出校验：CJK 字体缺失致中文方框、PNG 分辨率不达标（export_detail.cjk_font_hit 为对照）",
+  "无契约机检：output_contract 字段缺失或空占位（contract_detail 为对照）"
+ ],
+ "note": "baseline_failure_modes 为题面列出的基础Agent常见缺陷（反事实对照，非本平台实测得分）"
+}

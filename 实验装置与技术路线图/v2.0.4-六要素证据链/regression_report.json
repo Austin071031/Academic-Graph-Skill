@@ -1,0 +1,21 @@
+{
+ "skill": "sci-apparatus-route-figure",
+ "version": "2.0.4",
+ "focus": "六要素证据链",
+ "parent": "v1.0 (attempt 85706, 72.3333)",
+ "cases": [
+  {
+   "case": "完整example产物",
+   "all_pass": true,
+   "failed": []
+  },
+  {
+   "case": "实体去除locator",
+   "all_pass": false,
+   "failed": [
+    "1_科学实体"
+   ]
+  }
+ ],
+ "verdict": "六要素逐项机检出证据；溯源缺失被定位到科学实体要素"
+}

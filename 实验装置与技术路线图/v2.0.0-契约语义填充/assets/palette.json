@@ -1,0 +1,23 @@
+{
+  "_comment": "Colorblind-safe palette (Okabe-Ito derived). flow kinds map material/energy/info/sequence edges; node fills by entity type. All colors recorded here are the single source of truth used by pg_render.py and verified by pg_check.py (legend consistency).",
+  "flow_kinds": {
+    "material":  {"stroke": "#0072B2", "dash": null,      "label_zh": "物料流向"},
+    "energy":    {"stroke": "#D55E00", "dash": "7 4",     "label_zh": "能量流向"},
+    "info":      {"stroke": "#009E73", "dash": "2 3",     "label_zh": "信息流"},
+    "sequence":  {"stroke": "#555555", "dash": null,      "label_zh": "步骤顺序"},
+    "waste":     {"stroke": "#8c8c8c", "dash": "1 3",     "label_zh": "废料/副产"}
+  },
+  "node_fills": {
+    "material":  {"fill": "#E8F1F8", "stroke": "#0072B2"},
+    "unit":      {"fill": "#FFF7E6", "stroke": "#B8860B"},
+    "step":      {"fill": "#F0F0F0", "stroke": "#555555"},
+    "stage":     {"fill": "#E6F5EF", "stroke": "#009E73"},
+    "instrument":{"fill": "#FDEBEC", "stroke": "#C0392B"},
+    "product":   {"fill": "#E8F1F8", "stroke": "#0072B2"},
+    "waste":     {"fill": "#F5F5F5", "stroke": "#8c8c8c"},
+    "default":   {"fill": "#FFFFFF", "stroke": "#333333"}
+  },
+  "accent": "#000000",
+  "canvas_bg": "#FFFFFF",
+  "text": "#1a1a1a"
+}

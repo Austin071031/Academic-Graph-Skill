@@ -1,0 +1,30 @@
+{
+  "_comment": "SYNTHETIC EXAMPLE (示例) for interface demonstration only — NOT an official case answer. A two-stage demo synthesis route.",
+  "case_id": "EXAMPLE-SYNTHETIC",
+  "diagram_type": "tech_route",
+  "title": "示例：两段式演示工艺路线（合成示例，非正式案例结果）",
+  "source": {"materials": [{"path": "example_material.md", "version": "synthetic-v0", "locator": "§1-2"}]},
+  "entities": [
+    {"id": "E1", "label": "原料A", "type": "material", "source": {"material": "example_material.md", "locator": "§1"}},
+    {"id": "E2", "label": "预处理单元", "type": "unit", "glyph": "heater", "source": {"material": "example_material.md", "locator": "§1"}},
+    {"id": "E3", "label": "反应器R1", "type": "unit", "glyph": "vessel", "values": ["T=350°C"], "source": {"material": "example_material.md", "locator": "§2"}},
+    {"id": "E4", "label": "分离柱C1", "type": "unit", "glyph": "column", "source": {"material": "example_material.md", "locator": "§2"}},
+    {"id": "E5", "label": "产品P", "type": "product", "source": {"material": "example_material.md", "locator": "§2"}},
+    {"id": "E6", "label": "废气", "type": "waste", "source": {"material": "example_material.md", "locator": "§2"}}
+  ],
+  "connections": [
+    {"id": "C1", "from": "E1", "to": "E2", "kind": "material", "label": "进料", "source": {"material": "example_material.md", "locator": "§1"}},
+    {"id": "C2", "from": "E2", "to": "E3", "kind": "material", "label": "预热后", "source": {"material": "example_material.md", "locator": "§1"}},
+    {"id": "C3", "from": "E3", "to": "E4", "kind": "material", "source": {"material": "example_material.md", "locator": "§2"}},
+    {"id": "C4", "from": "E4", "to": "E5", "kind": "material", "label": "塔底", "source": {"material": "example_material.md", "locator": "§2"}},
+    {"id": "C5", "from": "E4", "to": "E6", "kind": "waste", "label": "塔顶", "source": {"material": "example_material.md", "locator": "§2"}}
+  ],
+  "steps": [
+    {"id": "S1", "no": 1, "title": "预处理", "actor": "E2", "stage": "阶段一：预处理", "source": {"material": "example_material.md", "locator": "§1"}},
+    {"id": "S2", "no": 2, "title": "反应", "actor": "E3", "stage": "阶段二：反应与分离", "source": {"material": "example_material.md", "locator": "§2"}},
+    {"id": "S3", "no": 3, "title": "分离", "actor": "E4", "stage": "阶段二：反应与分离", "source": {"material": "example_material.md", "locator": "§2"}}
+  ],
+  "layout": {"type": "auto", "canvas": "double_column"},
+  "uncertainty": [],
+  "chart": {}
+}

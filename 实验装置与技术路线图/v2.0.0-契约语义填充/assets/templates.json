@@ -1,0 +1,18 @@
+{
+  "_comment": "Canvas presets in mm (journal figure conventions) and layout templates. width_mm/height_mm are converted to px at 96 dpi for SVG viewBox; PNG export renders at scale to reach effective 300 dpi.",
+  "canvas_presets": {
+    "single_column": {"width_mm": 85,  "height_mm": 60,  "dpi": 300},
+    "double_column": {"width_mm": 170, "height_mm": 100, "dpi": 300},
+    "slide_16x9":    {"width_mm": 338.7, "height_mm": 190.5, "dpi": 150},
+    "poster_a4":     {"width_mm": 210, "height_mm": 297, "dpi": 300}
+  },
+  "layouts": {
+    "auto":      {"description": "choose by diagram_type: flowchart/tech_route -> sugiyama layered left-to-right; apparatus -> explicit grid or row-major; chart -> cartesian axes"},
+    "lr":        {"description": "left-to-right layered (Sugiyama longest-path + barycenter ordering)"},
+    "tb":        {"description": "top-to-bottom layered"},
+    "grid":      {"description": "explicit x/y grid placement, ports aligned by side"},
+    "chart":     {"description": "cartesian axes with series, error bars optional"}
+  },
+  "node_defaults": {"width": 120, "height": 52, "h_gap": 70, "v_gap": 34, "margin": 24},
+  "export": {"png_scale_for_300dpi": 3.125, "min_png_bytes": 1024, "formats": ["svg", "png", "pdf"]}
+}

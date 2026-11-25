@@ -1,0 +1,29 @@
+{
+ "skill": "sci-apparatus-route-figure",
+ "version": "2.0.1",
+ "focus": "材料召回审计",
+ "parent": "v1.0 (attempt 85706, 72.3333)",
+ "cases": [
+  {
+   "case": "完整IR+洁净材料",
+   "exit": 0,
+   "missing": []
+  },
+  {
+   "case": "材料含IR未收录装置(冷凝器/储罐)",
+   "exit": 1,
+   "missing_devices": [
+    "冷凝器",
+    "储罐"
+   ]
+  },
+  {
+   "case": "IR漏掉步骤3",
+   "exit": 1,
+   "missing_step_numbers": [
+    3
+   ]
+  }
+ ],
+ "verdict": "召回审计能检出装置遗漏与步骤遗漏，exit=1 阻止漏图；洁净例零误报"
+}

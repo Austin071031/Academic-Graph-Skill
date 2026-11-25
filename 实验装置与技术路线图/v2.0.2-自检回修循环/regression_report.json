@@ -1,0 +1,36 @@
+{
+ "skill": "sci-apparatus-route-figure",
+ "version": "2.0.2",
+ "focus": "自检回修循环",
+ "parent": "v1.0 (attempt 85706, 72.3333)",
+ "setup": "example_ir + 自环 + 悬空连接 + 编号断档(3,4,5)",
+ "baseline": {
+  "round": 0,
+  "issues": [
+   "connection_dangling",
+   "direction_sanity",
+   "numbering_order"
+  ],
+  "passed": 8,
+  "total": 11
+ },
+ "final": {
+  "round": 1,
+  "actions": [
+   "renumber steps 1..N",
+   "drop 1 self-loop edges",
+   "drop 1 dangling edges"
+  ],
+  "issues": [],
+  "passed": 11,
+  "total": 11
+ },
+ "actions": [
+  [
+   "renumber steps 1..N",
+   "drop 1 self-loop edges",
+   "drop 1 dangling edges"
+  ]
+ ],
+ "verdict": "自环/悬空/编号断档被自动修复，selfcheck 从 8/11 提升到 11/11"
+}

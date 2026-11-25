@@ -1,0 +1,7 @@
+{
+ "skill": "sci-apparatus-route-figure",
+ "version": "2.0.3",
+ "focus": "增益量化自证",
+ "parent": "v1.0 (attempt 85706, 72.3333)",
+ "note": "在合成example产物上生成gain_card.json/md：5项指标全部从真实文件计算，附基础Agent反事实缺陷对照"
+}

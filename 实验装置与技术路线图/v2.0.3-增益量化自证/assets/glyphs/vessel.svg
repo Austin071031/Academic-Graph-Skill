@@ -1,0 +1,4 @@
+<g id="glyph-vessel">
+  <path d="M 30 18 L 70 18 L 70 30 Q 88 44 88 60 A 38 38 0 0 1 12 60 Q 12 44 30 30 Z" fill="inherit" stroke="inherit" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="20" y1="58" x2="80" y2="58" stroke="inherit" stroke-width="2" stroke-dasharray="4 3"/>
+</g>
