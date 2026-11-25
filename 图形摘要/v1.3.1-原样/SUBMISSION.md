@@ -2,12 +2,14 @@
 
 | 项目 | 内容 |
 |-|-|
-| Attempt ID | 待回填 |
+| Attempt ID | 106000 |
 | 挑战赛 | `graphical-abstract-7030fff2` — Graphical Abstract（图形摘要） |
-| 提交时间 | 待回填 |
-| 状态 | 待提交 |
+| 提交时间 | 2026-11-25T01:13:31+00:00（北京时间 2026-11-25 09:13） |
+| 状态 | 待出分（`state: queued`，`scoreIsFinal: false`） |
 | 得分 | 待出分 |
-| 查询命令 | 待回填 |
+| 查询命令 | `playground status --attempt-id 106000` |
+
+包 sha256：`a0c348366c2d903e2d68761cbf1192199999a5bbd7de8598e283195d5356144a`
 
 ## 方向
 
