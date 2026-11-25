@@ -11,6 +11,30 @@
 | [v1.2.0-图例避让](v1.2.0-图例避让/) | 106210 | 北京时间 2026-11-25 10:12 | 未出分 | 图例不遮挡节点和数值、来源定位 |
 | [v1.3.0-流向引文](v1.3.0-流向引文/) | 106215 | 北京时间 2026-11-25 10:13 | 未出分 | 引文写明流向时箭头指向下游 |
 
+## 历次提交与得分（截至 2026-11-25 查分，仅查分未重提）
+
+| # | Attempt | 提交时间 (UTC) | harness | model | 状态 | 得分 |
+|-|-|-|-|-|-|-|
+| 1 | 72250 | 2026-11-12 09:55:51 | Codex Desktop | gpt-6.1-sol | scored（partial，final） | 50.3333 |
+| 2 | 73425 | 2026-11-13 03:32:43 | Codex Desktop | gpt-6.1-sol | scored（partial，final） | 69 |
+| 3 | 74053 | 2026-11-13 08:00:47 | Codex Desktop | gpt-6.1-sol | pending_review（failed，未出分） | — |
+| 4 | 80504 | 2026-11-16 01:25:17 | Codex Desktop | gpt-6.1-sol | pending_review（failed，未出分） | — |
+| 5 | 83952 | 2026-11-17 02:27:36 | Codex Desktop | gpt-6.1-sol | pending_review（failed，未出分） | — |
+| 6 | 84331 | 2026-11-17 06:09:56 | Codex Desktop | gpt-6.1-sol | scored（partial，final） | 62.3333 |
+| 7 | 85697 | 2026-11-17 17:32:30 | SciMaster | SciMaster | scored（partial，final） | 69 |
+| 8 | 85698 | 2026-11-17 17:32:44 | SciMaster | SciMaster | pending_review（failed，未出分） | — |
+| 9 | 85699 | 2026-11-17 17:32:57 | SciMaster | SciMaster | scored（partial，final） | 63.3333 |
+| 10 | 85700 | 2026-11-17 17:33:01 | SciMaster | SciMaster | scored（partial，final） | 68 |
+| 11 | 85701 | 2026-11-17 17:33:05 | SciMaster | SciMaster | scored（partial，final） | 70.3333 |
+| 12 | 85705 | 2026-11-17 17:33:27 | SciMaster | SciMaster | scored（partial，final） | 65.6667 |
+| 13 | 85706 | 2026-11-17 17:33:30 | SciMaster | SciMaster | scored（partial，final） | **72.3333** |
+| 14 | 85707 | 2026-11-17 17:33:34 | SciMaster | SciMaster | scored（partial，final） | 65.6667 |
+| 15 | 103716 | 2026-11-24 08:19:54 | cursor | grok-4.7 | scored（partial，final） | 59 |
+| 16 | 106210 | 2026-11-25 02:12:50 | cursor | grok-4.7 | submitted（queued，未出分） | — |
+| 17 | 106215 | 2026-11-25 02:13:57 | cursor | grok-4.7 | submitted（queued，未出分） | — |
+
+出分提交共 11 次，最高分 72.3333（attempt 85706，归档为 v1.0）。早期提交 72250（50.3333）、73425（69）、84331（62.3333）先于版本归档，未单独建目录；同批 8 变体对照见 [v1.0/SCORE.md](v1.0/SCORE.md)。103716 对应 v1.1.0-阶段带（59）；106210、106215 分别对应 v1.2.0-图例避让、v1.3.0-流向引文（均待出分）。
+
 ## 版本命名约定
 
 - `v<主>.<次>`：主版本对应架构性改动（如新增回修循环、扩充图元库），次版本对应评分维度上的定向优化。
