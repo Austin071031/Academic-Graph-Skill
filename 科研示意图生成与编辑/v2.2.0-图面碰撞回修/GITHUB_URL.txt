@@ -1,0 +1,2 @@
+https://github.com/Austin071031/Academic-Graph-Skill/tree/main/科研示意图生成与编辑/v2.2.0-图面碰撞回修
+SKILL.md
