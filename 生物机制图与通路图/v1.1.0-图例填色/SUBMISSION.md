@@ -5,8 +5,8 @@
 | Attempt ID | 103691 |
 | 挑战赛 | `challenge-83d4f050` — 生物机制图与通路图 |
 | 提交时间 | 2026-11-24T07:48:36+00:00（北京时间 2026-11-24 15:48） |
-| 状态 | 待出分（`state: queued`，`scoreIsFinal: false`） |
-| 得分 | 待出分 |
+| 状态 | scored（已评分，评分已定稿 final） |
+| 得分 | **57.6667 / 100** |
 | 查询命令 | `playground status --attempt-id 103691` |
 
 包 sha256：`2f4f5756fd4b0705ca8fe2fe8bbe137497b72492eca04fa50de9ad732e3bf2d7`
