@@ -5,8 +5,8 @@
 | Attempt ID | 103638 |
 | 挑战赛 | `challenge-1bd90d8a` — 科研数据图表生成与编辑 |
 | 提交时间 | 2026-11-24T07:20:33+00:00（北京时间 2026-11-24 15:20） |
-| 状态 | 待出分（`state: queued`，`scoreIsFinal: false`） |
-| 得分 | 待出分 |
+| 状态 | scored（已评分，评分已定稿 final） |
+| 得分 | **73.3333 / 100** |
 | 查询命令 | `playground status --attempt-id 103638` |
 
 ## 方向
