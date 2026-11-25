@@ -5,9 +5,11 @@
 | Attempt ID | 103716 |
 | 挑战赛 | `challenge-9034312d` — 实验装置与技术路线图 |
 | 提交时间 | 2026-11-24T08:19:54+00:00（北京时间 2026-11-24 16:19） |
-| 状态 | 待出分（`state: queued`，`scoreIsFinal: false`） |
-| 得分 | 待出分 |
+| 状态 | scored（已评分，`state: final`，`scoreIsFinal: true`） |
+| 得分 | **59 / 100** |
 | 查询命令 | `playground status --attempt-id 103716` |
+
+出分时间：北京时间 2026-11-25 08:17。`outcome: partial`。
 
 ## 方向
 
